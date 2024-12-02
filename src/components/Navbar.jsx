@@ -3,13 +3,15 @@ import "./Navbar.css"
 
 const navbar = () => {
   return (
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <img className="logo" src="logo.png" alt=""></img>
+            <ul>
+                <li><a href="#">Tabela</a></li>
+                <li><a href="/">Sair da conta</a></li>
+            </ul>
+        </nav>
+    </header>
   )
 }
 

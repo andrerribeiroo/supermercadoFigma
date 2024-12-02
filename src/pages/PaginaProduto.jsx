@@ -1,11 +1,13 @@
-import "./PaginaProduto.css"
+import "./PaginaProduto.css";
+import Navbar from "../components/Navbar";
 
 const PaginaProduto = () => {
   return (
-    <div className="container">
-      <button>Cadastrar Novo Produto</button>
+    <div>
+      <Navbar />
+      <button className="cadastrar">Cadastrar Novo Produto</button>
     </div>
-  )
-}
+  );
+};
 
-export default PaginaProduto
+export default PaginaProduto;
