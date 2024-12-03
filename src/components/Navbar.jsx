@@ -7,8 +7,9 @@ const navbar = () => {
         <nav>
             <img className="logo" src="logo.png" alt=""></img>
             <ul>
-                <li><a href="#">Tabela</a></li>
-                <li><a href="/">Sair da conta</a></li>
+                <li><a href="/paginaproduto"><span class="material-symbols-outlined">account_circle</span>Tabela</a></li>
+                
+                <li><a href="/"> <span class="material-symbols-outlined">account_circle</span>Sair da conta</a></li>
             </ul>
         </nav>
     </header>
