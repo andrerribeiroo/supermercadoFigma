@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .produto-container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  h2{
+    margin: 0;
+  }
+  
+  .produto-detalhes {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .produto-imagem {
+    margin: auto;
+    margin-left: 250px;
+  }
+  
+  .imagem-principal {
+    width: 400px;
+    height: 326px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .produto-miniaturas {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .miniatura {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .produto-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .preco {
+    font-size: 24px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .parcelado {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .adicionar-carrinho {
+    width: 20%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quantidade {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .calcular-cep {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .calcular-cep input {
+    padding: 15px;
+    width: 227px;
+    height: 56px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .calcular-cep button {
+    width: 92px;
+    height: 87px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .produto-descricao {
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 255px;
+  }
+  
+  .produto-descricao h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .produto-descricao p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .produto-descricao ul {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .produto-descricao ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  

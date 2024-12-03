@@ -1,3 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .cadastrar{
     padding: 10px;
     background-color: green;
@@ -5,6 +11,53 @@
     border: 0;
     border-radius: 5px;
     margin-top: 50px;
-    margin-right: 1050px;
+    margin-right: 1125px;
     margin-top: 150px;
 }
+
+.cadastrar:hover {
+  background-color: #45a049;
+}
+
+.tabela-container {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+.tabela-produtos {
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin: auto;
+}
+
+.tabela-produtos th,
+.tabela-produtos td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 20px;
+}
+
+.tabela-produtos th {
+  background-color: #19683C;
+  color: white;
+  font-weight: bold;
+}
+
+.tabela-produtos tr:hover {
+  background-color: #f1f1f1;
+}
+
+.icone-lixeira {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
